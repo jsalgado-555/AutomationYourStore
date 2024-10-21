@@ -2,7 +2,7 @@ import { Page, expect } from '@playwright/test';
 import { register_user } from '../models/register_user';
 import { Register_userUserInterface } from '../resources/Register_userUserInterface';
 
-export class register_userPage {
+export class Register_userPage {
     readonly page: Page;
 
     constructor(page: Page) {
@@ -23,6 +23,7 @@ export class register_userPage {
         await this.page.check(Register_userUserInterface.check_policy);
         await this.page.locator(Register_userUserInterface.buttom_continue).click();
         await expect(this.page.getByText('Congratulations! Your new account has been successfully created!')).toBeVisible();
+   
     }   
 
 }
