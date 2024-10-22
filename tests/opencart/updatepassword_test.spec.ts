@@ -21,7 +21,7 @@ test.beforeEach('Se inicia sesion', async({page}) => {
 
 });
 
-test('Given: , When: , Then: ', 
+test('Given: Se accede a opencart, And: inicia sesion el usuario, When: se accede a su perfil, Then: se actualiza la contraseña', 
     async({page}) => {
       
       await page.goto('https://opencart.abstracta.us/index.php?route=common/home') 

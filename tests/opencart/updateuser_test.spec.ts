@@ -21,7 +21,7 @@ test.beforeEach('Se inicia sesion', async({page}) => {
 
 });
 
-test('Given: Se ha registrado un nuevo usuario, When: se accede a sus datos personales, Then: se actualiza su informacion', 
+test('Given: Se accede a opencart, And: inicia sesion el usuario, When: se accede a su perfil, Then: se actualiza su informacion personal', 
     async({page}) => {
   
       await page.goto('https://opencart.abstracta.us/index.php?route=common/home');
