@@ -14,7 +14,7 @@ export class Update_userPage {
 
         await this.page.locator(Update_userUserInterface.buttom_account).click();
         await this.page.locator(Update_userUserInterface.buttom_my_account).click();
-        await this.page.locator(Update_userUserInterface.buttom_edit_account)
+        await this.page.locator(Update_userUserInterface.buttom_edit_account).click();
         await this.page.locator(Update_userUserInterface.input_first_name).fill(update_user.first_name);
         await this.page.locator(Update_userUserInterface.input_last_name).fill(update_user.last_name);
         await this.page.locator(Update_userUserInterface.input_e_mail).fill(update_user.e_mail);
