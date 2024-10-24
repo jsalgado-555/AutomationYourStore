@@ -7,3 +7,10 @@
 5. realizar una compra de almenos 5 productos x o mas, usando la dirección antes creada.
 
 - Pagina: https://opencart.abstracta.us/index.php?route=common/home
+
+MacBook
+Canon EOS 5D
+iPhone
+Samsung SyncMaster 941BW
+Nikon D300
+HTC Touch HD
